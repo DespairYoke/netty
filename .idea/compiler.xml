@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty" />
+        <module name="netty-heat" />
+        <module name="netty-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="netty" target="1.6" />
+      <module name="netty" target="1.5" />
+      <module name="netty-heat" target="1.5" />
+      <module name="netty-hello" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
