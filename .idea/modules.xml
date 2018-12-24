@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty-heat/netty-heat.iml" filepath="$PROJECT_DIR$/netty-heat/netty-heat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" filepath="$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-hello/netty-hello.iml" filepath="$PROJECT_DIR$/netty-hello/netty-hello.iml" />
     </modules>
   </component>

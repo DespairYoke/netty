@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>netty-hello</module>
-        <module>netty-heat</module>
+        <module>netty-heartbeat</module>
     </modules>
     <dependencies>
         <dependency>
