@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" filepath="$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-hello/netty-hello.iml" filepath="$PROJECT_DIR$/netty-hello/netty-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-httpserver/netty-httpserver.iml" filepath="$PROJECT_DIR$/netty-httpserver/netty-httpserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-pack/netty-pack.iml" filepath="$PROJECT_DIR$/netty-pack/netty-pack.iml" />
     </modules>
   </component>
