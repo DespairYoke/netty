@@ -17,5 +17,5 @@
 - [Netty 客户端与服务端通信](https://www.jianshu.com/p/5e8a3700be5f)
 - [Netty 客户端与服务端心跳](https://www.jianshu.com/p/5db38401deee)
 - [Netty 粘包和拆包](https://www.jianshu.com/p/5857d80d9dec)
-- [Netty HTTP服务](http://blog.csdn.net/qazwsxpcm/article/details/78364023)
-
+- [Netty HTTP服务](https://www.jianshu.com/p/5dbaf946093b)
+- [Netty 客户端重连机制](https://www.jianshu.com/p/9fc69d580e8d)
