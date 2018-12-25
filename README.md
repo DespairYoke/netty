@@ -8,7 +8,7 @@
 
 - [Netty-httpServer](https://github.com/DespairYoke/netty/tree/master/netty-httpserver):Netty Http 服务的实现。
 
-- [Netty-reconnect](https://github.com/xuwujing/Netty-study/tree/master/Netty-reconnect): Netty Client 重连机制的实现。
+- [Netty-reconnect](https://github.com/DespairYoke/netty/tree/master/netty-reconnect): Netty Client 重连机制的实现。
 
 - [Netty-protobuf](https://github.com/xuwujing/Netty-study/tree/master/Netty-protobuf): Netty 使用protobuf 协议进行数据数据传输。
 

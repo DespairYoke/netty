@@ -13,6 +13,7 @@
         <module>netty-heartbeat</module>
         <module>netty-pack</module>
         <module>netty-httpserver</module>
+        <module>netty-reconnect</module>
     </modules>
     <dependencies>
         <dependency>
