@@ -11,6 +11,7 @@
     <modules>
         <module>netty-hello</module>
         <module>netty-heartbeat</module>
+        <module>netty-pack</module>
     </modules>
     <dependencies>
         <dependency>

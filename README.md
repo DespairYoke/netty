@@ -4,7 +4,7 @@
 
 - [Netty-heartbeat](https://github.com/DespairYoke/netty/tree/master/netty-heartbeat):Netty的心跳机制。
 
-- [Netty-unpack](https://github.com/xuwujing/Netty/tree/master/Netty-unpack):Netty的粘包和拆包处理方法。
+- [Netty-unpack](https://github.com/xuwujing/Netty/tree/master/netty-unpack):Netty的粘包和拆包处理方法。
 
 - [Netty-httpServer](https://github.com/xuwujing/Netty/tree/master/Netty-httpServer):Netty Http 服务的实现。
 

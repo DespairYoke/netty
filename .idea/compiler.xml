@@ -9,6 +9,7 @@
         <module name="netty-heartbeat" />
         <module name="netty-heat" />
         <module name="netty-hello" />
+        <module name="netty-pack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="netty-heartbeat" target="1.5" />
       <module name="netty-heat" target="1.5" />
       <module name="netty-hello" target="1.6" />
+      <module name="netty-pack" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

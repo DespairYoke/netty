@@ -14,7 +14,7 @@ public class NettyServerFilter extends ChannelInitializer<SocketChannel> {
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline ph = ch.pipeline();
-        // 以("\n")为结尾分割的 解码器
+        // 基于消息边界方式进行粘包拆包处理的
         ph.addLast("framer", new DelimiterBasedFrameDecoder(8192, Delimiters.lineDelimiter()));
         // 解码和编码，应和客户端一致
         ph.addLast("decoder", new StringDecoder());
