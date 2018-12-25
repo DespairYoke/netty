@@ -14,6 +14,7 @@
         <module>netty-pack</module>
         <module>netty-httpserver</module>
         <module>netty-reconnect</module>
+        <module>netty-rpc</module>
     </modules>
     <dependencies>
         <dependency>

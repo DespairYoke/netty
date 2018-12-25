@@ -12,6 +12,7 @@
         <module name="netty-httpserver" />
         <module name="netty-pack" />
         <module name="netty-reconnect" />
+        <module name="netty-rpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="netty-httpserver" target="1.5" />
       <module name="netty-pack" target="1.5" />
       <module name="netty-reconnect" target="1.8" />
+      <module name="netty-rpc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
