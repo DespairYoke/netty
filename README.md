@@ -6,7 +6,7 @@
 
 - [Netty-pack](https://github.com/DespairYoke/netty/tree/master/netty-pack):Netty的粘包和拆包处理方法。
 
-- [Netty-httpServer](https://github.com/xuwujing/Netty/tree/master/Netty-httpServer):Netty Http 服务的实现。
+- [Netty-httpServer](https://github.com/DespairYoke/netty/tree/master/netty-httpserver):Netty Http 服务的实现。
 
 - [Netty-reconnect](https://github.com/xuwujing/Netty-study/tree/master/Netty-reconnect): Netty Client 重连机制的实现。
 

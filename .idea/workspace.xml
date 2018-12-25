@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,19 +44,55 @@
       <file leaf-file-name="NettyServerFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="117" lean-forward="false" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
+            <state relative-caret-position="270">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyServerHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NettyServerHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="558">
+              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="378">
+                <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty-httpserver/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="916">
+                <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+                <folding>
+                  <marker date="1545718292000" expanded="true" signature="1397:1498" ph="/**...*/" />
+                  <marker date="1545718292000" expanded="true" signature="1570:2032" ph="{...}" />
+                  <marker date="1545718292000" expanded="true" signature="2226:2575" ph="{...}" />
+                  <marker date="1545718292000" expanded="true" signature="2857:4878" ph="{...}" />
+                  <marker date="1545718292000" expanded="true" signature="4883:4947" ph="/**...*/" />
+                  <marker date="1545718292000" expanded="true" signature="4999:5095" ph="{...}" />
+                  <marker date="1545718292000" expanded="true" signature="5101:5200" ph="/**...*/" />
+                  <marker date="1545718292000" expanded="true" signature="5292:5614" ph="{...}" />
+                  <marker date="1545718292000" expanded="true" signature="5737:5944" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -67,8 +100,8 @@
       <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="486">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -172,10 +205,12 @@
         <option value="$PROJECT_DIR$/netty-pack/README.md" />
         <option value="$PROJECT_DIR$/netty-heartbeat/README.md" />
         <option value="$PROJECT_DIR$/netty-hello/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java" />
         <option value="$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/netty-httpserver/README.md" />
       </list>
     </option>
   </component>
@@ -195,8 +230,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="589" />
-    <option name="y" value="103" />
+    <option name="x" value="674" />
+    <option name="y" value="97" />
     <option name="width" value="2041" />
     <option name="height" value="1185" />
   </component>
@@ -327,42 +362,7 @@
             <path>
               <item name="netty" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-httpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-httpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-httpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-httpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-httpserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-pack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -617,15 +617,15 @@
       <option name="presentableId" value="Default" />
       <updated>1515397221578</updated>
       <workItem from="1515397226475" duration="20043000" />
-      <workItem from="1545639171706" duration="16152000" />
+      <workItem from="1545639171706" duration="19157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36195000" />
+    <option name="totallyTimeSpent" value="39200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="589" y="103" width="2041" height="1185" extended-state="0" />
+    <frame x="674" y="97" width="2041" height="1185" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -637,9 +637,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13106553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39081538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39081538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31415707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -671,14 +671,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zapp/DiscardServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zapp/time/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1025,17 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="83" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1157,25 +1138,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="486">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="117" lean-forward="false" selection-start-line="21" selection-start-column="117" selection-end-line="21" selection-end-column="117" />
+        <state relative-caret-position="270">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="558">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="378">
+            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-httpserver/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="916">
+            <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+            <folding>
+              <marker date="1545718292000" expanded="true" signature="1397:1498" ph="/**...*/" />
+              <marker date="1545718292000" expanded="true" signature="1570:2032" ph="{...}" />
+              <marker date="1545718292000" expanded="true" signature="2226:2575" ph="{...}" />
+              <marker date="1545718292000" expanded="true" signature="2857:4878" ph="{...}" />
+              <marker date="1545718292000" expanded="true" signature="4883:4947" ph="/**...*/" />
+              <marker date="1545718292000" expanded="true" signature="4999:5095" ph="{...}" />
+              <marker date="1545718292000" expanded="true" signature="5101:5200" ph="/**...*/" />
+              <marker date="1545718292000" expanded="true" signature="5292:5614" ph="{...}" />
+              <marker date="1545718292000" expanded="true" signature="5737:5944" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
