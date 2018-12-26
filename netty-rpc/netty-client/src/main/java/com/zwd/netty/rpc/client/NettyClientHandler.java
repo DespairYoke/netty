@@ -29,17 +29,20 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter implements 
     }
 
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("断开连接");
         ctx.fireChannelInactive();
     }
 
-    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-
+    public synchronized void channelRead(ChannelHandlerContext ctx, Object msg){
         result = msg.toString();
+        System.out.println("收到服务发送的消息："+result);
         notify();
+
     }
     @Override
-    public Object call() throws Exception {
+    public synchronized Object call() throws InterruptedException {
         context.writeAndFlush(para);
+        wait();
         return result;
     }
 

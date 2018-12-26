@@ -1,4 +1,4 @@
-package com.zwd.netty.rpc.service;
+package com.zwd.netty.rpc.server.service;
 
 /**
  * @author zwd

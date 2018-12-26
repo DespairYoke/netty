@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-client/netty-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" filepath="$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-hello/netty-hello.iml" filepath="$PROJECT_DIR$/netty-hello/netty-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-httpserver/netty-httpserver.iml" filepath="$PROJECT_DIR$/netty-httpserver/netty-httpserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-pack/netty-pack.iml" filepath="$PROJECT_DIR$/netty-pack/netty-pack.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-reconnect/netty-reconnect.iml" filepath="$PROJECT_DIR$/netty-reconnect/netty-reconnect.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-server/netty-server.iml" />
     </modules>
   </component>
 </project>
