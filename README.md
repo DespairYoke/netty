@@ -12,6 +12,9 @@
 
 - [Netty-rpc](https://github.com/DespairYoke/netty/tree/master/netty-rpc): 使用字符串协议模仿dubbo实现rpc
 
+- [Netty-redis](https://github.com/DespairYoke/netty/tree/master/netty-redis): 实现string类型redis
+
+
 ## Netty的相关博客
 
 - [Netty 客户端与服务端通信](https://www.jianshu.com/p/5e8a3700be5f)

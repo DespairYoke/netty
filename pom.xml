@@ -15,6 +15,7 @@
         <module>netty-httpserver</module>
         <module>netty-reconnect</module>
         <module>netty-rpc</module>
+        <module>netty-redis</module>
     </modules>
     <dependencies>
         <dependency>

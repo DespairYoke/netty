@@ -6,18 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/pom.xml" afterPath="$PROJECT_DIR$/netty-rpc/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/RpcConsumer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClientFilter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/config/ClientBootstrap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerFilter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/service/HelloService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/service/HelloServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/netty-rpc/target/" />
     <ignored path="$PROJECT_DIR$/netty-rpc/netty-client/target/" />
     <ignored path="$PROJECT_DIR$/netty-rpc/netty-server/target/" />
+    <ignored path="$PROJECT_DIR$/netty-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +29,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NettyClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java">
+      <file leaf-file-name="RedisClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="533">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1155#1739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+              <folding>
+                <element signature="e#1300#1776#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="72" />
+              <first_editor relative-caret-position="360">
+                <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -64,86 +68,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractChannelHandlerContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="381" column="33" lean-forward="false" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocationHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="93" column="22" lean-forward="false" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/StartApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NettyServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="615">
+              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#843#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCommandHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisCommandHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reply.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,6 +164,7 @@
       <find>Proxy0</find>
       <find>return ((Boolean) super.h.invoke</find>
       <find>proxyClassCache</find>
+      <find>？</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,19 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-heartbeat/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServer.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/server/NettyServer.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClientFilter.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/server/NettyServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/server/NettyServerFilter.java" />
-        <option value="$PROJECT_DIR$/netty-pack/README.md" />
-        <option value="$PROJECT_DIR$/netty-heartbeat/README.md" />
-        <option value="$PROJECT_DIR$/netty-hello/README.md" />
         <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java" />
         <option value="$PROJECT_DIR$/netty-httpserver/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java" />
@@ -229,6 +215,19 @@
         <option value="$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClient.java" />
         <option value="$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty-rpc/README.md" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisCommandDecoder.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/Command.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisCommandHandler.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisServer.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/Reply.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisClient.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClient.java" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClientHandler.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -249,8 +248,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="921" />
-    <option name="y" value="136" />
+    <option name="x" value="512" />
+    <option name="y" value="76" />
     <option name="width" value="2560" />
     <option name="height" value="1334" />
   </component>
@@ -365,110 +364,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="netty" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty" type="b2602c69:ProjectViewProjectNode" />
@@ -498,11 +401,11 @@
       <recent name="com.zwd.netty.rpc.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server" />
       <recent name="$PROJECT_DIR$/netty-rpc" />
       <recent name="$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client" />
       <recent name="$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/service" />
       <recent name="$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server" />
-      <recent name="$PROJECT_DIR$/netty-reconnect" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -517,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartApp">
+  <component name="RunManager" selected="Application.RedisClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -563,14 +466,14 @@
       <module name="netty-server" />
       <envs />
     </configuration>
-    <configuration name="NettyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.zwd.netty.rpc.server.*" />
+          <option name="PATTERN" value="com.zwd.netty.redis.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zwd.netty.rpc.server.NettyServer" />
+      <option name="MAIN_CLASS_NAME" value="com.zwd.netty.redis.server.NettyServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -579,17 +482,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="netty-rpc" />
+      <module name="netty-redis" />
       <envs />
     </configuration>
-    <configuration name="NettyServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.zwd.netty.reconnect.server.*" />
+          <option name="PATTERN" value="com.zwd.netty.redis.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zwd.netty.reconnect.server.NettyServer" />
+      <option name="MAIN_CLASS_NAME" value="com.zwd.netty.redis.client.RedisClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -598,7 +501,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="netty-reconnect" />
+      <module name="netty-redis" />
       <envs />
     </configuration>
     <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -702,19 +605,19 @@
       <option name="params" value="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NettyServer (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NettyServer (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ClientBootstrap" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NettyServer (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StartApp" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ClientBootstrap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NettyServer (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StartApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NettyServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RedisClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NettyServer (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ClientBootstrap" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NettyServer (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NettyServer (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RedisClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NettyServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StartApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NettyServer (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ClientBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -733,15 +636,16 @@
       <updated>1515397221578</updated>
       <workItem from="1515397226475" duration="20043000" />
       <workItem from="1545639171706" duration="37706000" />
-      <workItem from="1545790469642" duration="13190000" />
+      <workItem from="1545790469642" duration="15746000" />
+      <workItem from="1545870046996" duration="9855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70939000" />
+    <option name="totallyTimeSpent" value="83350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="921" y="136" width="2560" height="1334" extended-state="0" />
+    <frame x="512" y="76" width="2560" height="1334" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -754,9 +658,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1554054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38981172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2026578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38981172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30756578" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -766,8 +670,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42516446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42516446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,6 +694,18 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -802,234 +718,18 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#223#224#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1545617886000" expanded="false" signature="140:388" ph="..." />
-            <marker date="1545617886000" expanded="true" signature="758:765" ph="{}" />
-            <marker date="1545617886000" expanded="true" signature="918:1083" ph="{...}" />
-            <marker date="1545617886000" expanded="true" signature="1178:1348" ph="{...}" />
-            <marker date="1545617886000" expanded="true" signature="1423:1520" ph="{...}" />
-            <marker date="1545617886000" expanded="true" signature="1598:1978" ph="{...}" />
-            <marker date="1545617886000" expanded="true" signature="2031:2279" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/client/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="135" column="41" lean-forward="false" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/FastCharsetProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/RpcConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/config/MyMethodInhandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClientFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/config/ClientBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/config/ClientBootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServerFilter.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/server/NettyServer.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/App.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerFilter.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1038,46 +738,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/service/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/service/HelloServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/netty-rpc/src/main/java/com/zwd/netty/rpc/client/NettyClient.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1085,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,15 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="66" lean-forward="true" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="93" column="22" lean-forward="false" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,44 +836,278 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/src/main/java/com/zwd/netty/rpc/server/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545617886000" expanded="false" signature="140:388" ph="..." />
+            <marker date="1545617886000" expanded="true" signature="758:765" ph="{}" />
+            <marker date="1545617886000" expanded="true" signature="918:1083" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1178:1348" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1423:1520" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1598:1978" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="2031:2279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClientFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-pack/src/main/java/com/zwd/netty/pack/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545617886000" expanded="true" signature="282:289" ph="{}" />
+            <marker date="1545617886000" expanded="true" signature="369:413" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="495:541" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="617:657" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="735:777" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="863:904" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="986:1032" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1125:1173" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1261:1313" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1408:1455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/util/concurrent/GenericFutureListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-rpc/netty-client/src/main/java/com/zwd/netty/rpc/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#1787#2193#0" expanded="false" />
+            <element signature="e#2192#2193#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelDuplexHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545617886000" expanded="true" signature="306:313" ph="{}" />
+            <marker date="1545617886000" expanded="true" signature="432:480" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="631:697" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="794:834" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="926:961" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1058:1098" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1165:1192" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1296:1336" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="1404:1432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisCommandDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1155#1739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#843#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <element signature="e#1300#1776#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1229,8 +1115,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="72" />
+          <first_editor relative-caret-position="360">
+            <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1289,7 +1175,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>netty-server</last-edited>
+          <last-edited>netty-redis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
