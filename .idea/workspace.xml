@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="" />
+    <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" afterPath="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-hello/target/" />
@@ -36,27 +38,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+            <state relative-caret-position="291">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
-                <element signature="e#1300#1776#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1298#1774#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractBootstrap.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractBootstrap.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="184" column="25" lean-forward="false" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="188" column="62" lean-forward="true" selection-start-line="188" selection-start-column="62" selection-end-line="188" selection-end-column="62" />
               <folding>
-                <element signature="e#5877#5878#0" expanded="true" />
-                <element signature="e#5942#5943#0" expanded="true" />
+                <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1545617886000" expanded="false" signature="142:1017" ph="..." />
+                <marker date="1545617886000" expanded="true" signature="1510:1517" ph="{}" />
+                <marker date="1545617886000" expanded="true" signature="1576:2044" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="2087:2374" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="2396:2407" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="2419:2425" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="2481:2730" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="2736:2754" ph="/**...*/" />
+                <marker date="1545617886000" expanded="true" signature="2843:3184" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="3275:3350" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="3406:3483" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="3524:3535" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="3593:3599" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="3658:3746" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="3810:3894" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="3954:4497" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="4551:5070" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="5096:5390" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="5460:5531" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="5565:5831" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="5876:5887" ph=" { " />
+                <marker date="1545617886000" expanded="true" signature="5937:5943" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="6006:6086" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="6154:6230" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="6290:6491" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="6560:7657" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="7125:7241" ph="operationComplete(future) → {" />
+                <marker date="1545617886000" expanded="false" signature="7592:7611" ph="}" />
+                <marker date="1545617886000" expanded="true" signature="7701:8526" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="8734:9109" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="8772:8820" ph="run() → {" />
+                <marker date="1545617886000" expanded="false" signature="9086:9101" ph="}" />
+                <marker date="1545617886000" expanded="true" signature="9156:9344" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="9350:9368" ph="/**...*/" />
+                <marker date="1545617886000" expanded="false" signature="9424:9435" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="9453:9459" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="9575:9843" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="9895:9906" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="9926:9932" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="9981:9992" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10010:10016" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="10056:10067" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10092:10098" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="10154:10165" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10192:10198" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="10234:10245" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10265:10271" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="10322:10333" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10364:10370" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="10418:10429" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="10458:10464" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="10579:10841" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="10960:11243" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="11365:11741" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="11772:11948" ph="{...}" />
+                <marker date="1545617886000" expanded="true" signature="12030:12409" ph="{...}" />
+                <marker date="1545617886000" expanded="false" signature="12129:12144" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="12159:12169" ph=" }" />
+                <marker date="1545617886000" expanded="false" signature="12196:12211" ph=" { " />
+                <marker date="1545617886000" expanded="false" signature="12234:12244" ph=" }" />
+                <marker date="1545617886000" expanded="true" signature="12289:12403" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,26 +183,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/RedisServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reply.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -223,12 +265,12 @@
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisClient.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/RedisClientHandler.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/test/Reply.java" />
-        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClient.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClientHandler.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/netty-redis/README.md" />
+        <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" />
       </list>
     </option>
   </component>
@@ -682,12 +724,12 @@
       <workItem from="1515397226475" duration="20043000" />
       <workItem from="1545639171706" duration="37706000" />
       <workItem from="1545790469642" duration="15746000" />
-      <workItem from="1545870046996" duration="10561000" />
+      <workItem from="1545870046996" duration="12510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84056000" />
+    <option name="totallyTimeSpent" value="86005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="23" width="2560" height="1334" extended-state="0" />
@@ -1159,24 +1201,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="304">
+          <caret line="188" column="62" lean-forward="true" selection-start-line="188" selection-start-column="62" selection-end-line="188" selection-end-column="62" />
           <folding>
-            <element signature="e#1300#1776#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
+            <marker date="1545617886000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545617886000" expanded="false" signature="142:1017" ph="..." />
+            <marker date="1545617886000" expanded="true" signature="1510:1517" ph="{}" />
+            <marker date="1545617886000" expanded="true" signature="1576:2044" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="2087:2374" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="2396:2407" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="2419:2425" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="2481:2730" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="2736:2754" ph="/**...*/" />
+            <marker date="1545617886000" expanded="true" signature="2843:3184" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="3275:3350" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="3406:3483" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="3524:3535" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="3593:3599" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="3658:3746" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="3810:3894" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="3954:4497" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="4551:5070" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="5096:5390" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="5460:5531" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="5565:5831" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="5876:5887" ph=" { " />
+            <marker date="1545617886000" expanded="true" signature="5937:5943" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="6006:6086" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="6154:6230" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="6290:6491" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="6560:7657" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="7125:7241" ph="operationComplete(future) → {" />
+            <marker date="1545617886000" expanded="false" signature="7592:7611" ph="}" />
+            <marker date="1545617886000" expanded="true" signature="7701:8526" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="8734:9109" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="8772:8820" ph="run() → {" />
+            <marker date="1545617886000" expanded="false" signature="9086:9101" ph="}" />
+            <marker date="1545617886000" expanded="true" signature="9156:9344" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="9350:9368" ph="/**...*/" />
+            <marker date="1545617886000" expanded="false" signature="9424:9435" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="9453:9459" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="9575:9843" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="9895:9906" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="9926:9932" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="9981:9992" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10010:10016" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="10056:10067" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10092:10098" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="10154:10165" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10192:10198" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="10234:10245" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10265:10271" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="10322:10333" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10364:10370" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="10418:10429" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="10458:10464" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="10579:10841" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="10960:11243" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="11365:11741" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="11772:11948" ph="{...}" />
+            <marker date="1545617886000" expanded="true" signature="12030:12409" ph="{...}" />
+            <marker date="1545617886000" expanded="false" signature="12129:12144" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="12159:12169" ph=" }" />
+            <marker date="1545617886000" expanded="false" signature="12196:12211" ph=" { " />
+            <marker date="1545617886000" expanded="false" signature="12234:12244" ph=" }" />
+            <marker date="1545617886000" expanded="true" signature="12289:12403" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
+    <entry file="file://$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="184" column="25" lean-forward="false" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+        <state relative-caret-position="291">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
-            <element signature="e#5877#5878#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#1298#1774#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
           </folding>
         </state>
       </provider>

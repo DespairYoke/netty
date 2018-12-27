@@ -32,8 +32,6 @@ public class NettyServer {
         ServerBootstrap serverBootstrap = new ServerBootstrap();
         EventLoopGroup group = new NioEventLoopGroup();
         try {
-
-
         serverBootstrap.group(group);
         serverBootstrap.childHandler(new ChannelInitializer<SocketChannel>() {
             protected void initChannel(SocketChannel socketChannel) throws Exception {
