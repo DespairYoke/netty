@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bio-use/bio-use.iml" filepath="$PROJECT_DIR$/bio-use/bio-use.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-client/netty-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" filepath="$PROJECT_DIR$/netty-heartbeat/netty-heartbeat.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/netty-redis/netty-redis.iml" filepath="$PROJECT_DIR$/netty-redis/netty-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-rpc.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-rpc/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/netty-rpc/netty-server/netty-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-use/nio-use.iml" filepath="$PROJECT_DIR$/nio-use/nio-use.iml" />
     </modules>
   </component>
 </project>

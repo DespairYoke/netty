@@ -16,6 +16,8 @@
         <module>netty-reconnect</module>
         <module>netty-rpc</module>
         <module>netty-redis</module>
+        <module>nio-use</module>
+        <module>bio-use</module>
     </modules>
     <dependencies>
         <dependency>

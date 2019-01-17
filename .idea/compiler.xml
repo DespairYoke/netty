@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bio-use" />
         <module name="netty-client" />
         <module name="netty-heartbeat" />
         <module name="netty-heat" />
@@ -15,9 +16,11 @@
         <module name="netty-reconnect" />
         <module name="netty-redis" />
         <module name="netty-server" />
+        <module name="nio-use" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="bio-use" target="1.5" />
       <module name="netty" target="1.5" />
       <module name="netty-client" target="1.5" />
       <module name="netty-heartbeat" target="1.5" />
@@ -25,9 +28,10 @@
       <module name="netty-httpserver" target="1.5" />
       <module name="netty-pack" target="1.5" />
       <module name="netty-reconnect" target="1.8" />
-      <module name="netty-redis" target="1.8" />
+      <module name="netty-redis" target="1.5" />
       <module name="netty-rpc" target="1.5" />
       <module name="netty-server" target="1.5" />
+      <module name="nio-use" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
