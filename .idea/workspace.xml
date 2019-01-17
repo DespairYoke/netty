@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java" afterPath="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,45 +43,51 @@
       <file leaf-file-name="BioServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+            <state relative-caret-position="659">
+              <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringBuffer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5706">
-              <caret line="356" column="18" lean-forward="false" selection-start-line="356" selection-start-column="18" selection-end-line="356" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractStringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9558">
-              <caret line="563" column="33" lean-forward="false" selection-start-line="563" selection-start-column="33" selection-end-line="563" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BioClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BioClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="717">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bio-use/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="719">
+                <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="252">
+                <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="70" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/client/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/netty-reconnect/src/main/java/com/zwd/netty/reconnect/client/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/netty-reconnect/src/main/java/com/zwd/netty/reconnect/client/NettyClient.java" />
         <option value="$PROJECT_DIR$/netty-reconnect/README.md" />
@@ -223,7 +226,6 @@
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClient.java" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/client/RedisClientHandler.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/netty-redis/README.md" />
         <option value="$PROJECT_DIR$/netty-redis/src/main/java/com/zwd/netty/redis/server/NettyServer.java" />
         <option value="$PROJECT_DIR$/netty-hello/src/main/java/com/zwd/netty/hello/server/NettyServer.java" />
@@ -231,8 +233,10 @@
         <option value="$PROJECT_DIR$/nio-use/src/main/java/com/zwd/nio/NIOSServer.java" />
         <option value="$PROJECT_DIR$/nio-use/src/main/java/com/zwd/nio/NIOClient.java" />
         <option value="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/ServerHander.java" />
-        <option value="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java" />
         <option value="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioClient.java" />
+        <option value="$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java" />
+        <option value="$PROJECT_DIR$/bio-use/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -706,15 +710,16 @@
       <workItem from="1546820482835" duration="590000" />
       <workItem from="1547602947805" duration="33599000" />
       <workItem from="1547712518599" duration="854000" />
-      <workItem from="1547713763297" duration="1192000" />
+      <workItem from="1547713763297" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136866000" />
+    <option name="totallyTimeSpent" value="137908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="948" y="59" width="2529" height="1297" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -726,9 +731,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15694165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38761663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38761663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3166808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3163698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25231388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -791,20 +796,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="266" column="44" lean-forward="false" selection-start-line="266" selection-start-column="42" selection-end-line="266" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar!/io/netty/channel/ChannelDuplexHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1012,6 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,23 +1136,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        <state relative-caret-position="659">
+          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bio-use/src/main/java/com/zwd/bio/BioClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="717">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bio-use/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="719">
+            <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="70" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

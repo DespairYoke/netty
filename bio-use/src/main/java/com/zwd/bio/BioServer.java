@@ -15,7 +15,6 @@ public class BioServer {
     private final int port = 8889;
 
 
-
     private ServerSocket serverSocket;
 
     public static void main(String[] args) throws IOException {

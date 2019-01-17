@@ -14,7 +14,7 @@
 
 - [Netty-redis](https://github.com/DespairYoke/netty/tree/master/netty-redis): 实现string类型redis
 
-
+- [bio-use](https://github.com/DespairYoke/netty/tree/master/bio-use): 多线程下的bio使用
 ## Netty的相关博客
 
 - [Netty 客户端与服务端通信](https://www.jianshu.com/p/5e8a3700be5f)
