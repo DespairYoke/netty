@@ -18,6 +18,7 @@
 #### 网络IO
 <div id="network"></div>
 讲网络IO前，我们先对同步、异步、阻塞、非阻塞
+
 #### 同步与异步
 同步和异步关注的是消息通信机制 (synchronous communication/ asynchronous communication)。所谓同步，就是在发出一个*调用*时，在没有得到结果之前，该*调用*就不返回。但是一旦调用返回，就得到返回值了。换句话说，就是由*调用者*主动等待这个*调用*的结果。而异步则是相反，*调用*在发出之后，这个调用就直接返回了，所以没有返回结果。换句话说，当一个异步过程调用发出后，调用者不会立刻得到结果。而是在*调用*发出后，*被调用者*通过状态、通知来通知调用者，或通过回调函数处理这个调用。
 
@@ -30,6 +31,7 @@
 
 还是上面的例子，你打电话问书店老板有没有《分布式系统》这本书，你如果是阻塞式调用，你会一直把自己"挂起"，直到得到这本书有没有的结果，如果是非阻塞式调用，你不管老板有没有告诉你，你自己先一边去玩了， 当然你也要偶尔过几分钟check一下老板有没有返回结果。在这里阻塞与非阻塞与是否同步异步无关。跟老板通过什么方式回答你结果无关。
 #### 网络IO分为五大模型
+出自《UNIX网络编程》，I/O模型一共有阻塞式I/O，非阻塞式I/O，I/O复用(select/poll/epoll)，信号驱动式I/O和异步I/O。这篇文章讲的是I/O复用。
 - blocking IO - 阻塞IO
 - nonblocking IO - 非阻塞IO
 - IO multiplexing - IO多路复用
@@ -42,14 +44,11 @@ Java NIO 由以下几个核心部分组成：
 - Channels
 - Buffers
 - Selectors
-TCP用主机的IP地址加上主机上的端口号作为TCP连接的端点，这种端点就叫做套接字（socket）或插口。 套接字用（IP地址：端口号）表示。 它是网络通信过程中端点的抽象表示，包含进行网络通信必需的五种信息：连接使用的协议，本地主机的IP地址，本地进程的协议端口，远地主机的IP地址，远地进程的协议端口。
-
-出自《UNIX网络编程》，I/O模型一共有阻塞式I/O，非阻塞式I/O，I/O复用(select/poll/epoll)，信号驱动式I/O和异步I/O。这篇文章讲的是I/O复用。
-
 
 #### 通道
 <div id="channel"></div>
-　　通道：类似于流，但是可以异步读写数据（流只能同步读写），通道是双向的，（流是单向的），通道的数据总是要先读到一个buffer 或者 从一个buffer写入，即通道与buffer进行数据交互。这样的优点就是我们可以在读取的时候回退，对数据的操作更加灵活。
+　通道：类似于流，但是可以异步读写数据（流只能同步读写），通道是双向的，（流是单向的），通道的数据总是要先读到一个buffer 或者 从一个buffer写入，即通道与buffer进行数据交互。这样的优点就是我们可以在读取的时候回退，对数据的操作更加灵活。
+
 ![image.png](https://upload-images.jianshu.io/upload_images/15204062-9b83f73b613429dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 通道类型：
 - FileChannel：从文件中读写数据。　　
@@ -88,6 +87,7 @@ TCP用主机的IP地址加上主机上的端口号作为TCP连接的端点，这
 #### 选择器
 <div id="selector"></div>
 选择器：相当于一个观察者，用来监听通道感兴趣的事件，一个选择器可以绑定多个通道。
+
 ![image.png](https://upload-images.jianshu.io/upload_images/15204062-cee15bf85fd22d79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 通道向选择器注册时，需要指定感兴趣的事件，选择器支持以下事件：
 SelectionKey.OP_CONNECT
@@ -125,7 +125,6 @@ aFile.close();
 ### nio的简单使用
 <div id="example"></div>
 
-[项目地址](https://github.com/DespairYoke/netty/tree/master/nio-use)
 #### 服务端
 
 ```java
