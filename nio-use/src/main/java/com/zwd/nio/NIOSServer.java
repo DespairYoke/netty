@@ -59,6 +59,7 @@ public class NIOSServer {
         selector = Selector.open();
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
         System.out.println("server start on port:"+port);
+
     }
 
     /**
