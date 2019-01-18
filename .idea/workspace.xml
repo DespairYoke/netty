@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bio-use/README.md" afterPath="$PROJECT_DIR$/bio-use/README.md" />
-      <change beforePath="$PROJECT_DIR$/nio-use/src/main/java/com/zwd/nio/NIOSServer.java" afterPath="$PROJECT_DIR$/nio-use/src/main/java/com/zwd/nio/NIOSServer.java" />
-    </list>
+    <list default="true" id="91988f53-952d-4ed2-a86e-037c455c1d34" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/netty-hello/target/" />
@@ -141,10 +138,10 @@
         <entry file="file://$PROJECT_DIR$/nio-use/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-957">
-                <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <first_editor relative-caret-position="-168">
+                <caret line="93" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="3" />
                 <folding>
-                  <marker date="1547781803000" expanded="false" signature="3978:4072" ph="/.../" />
+                  <marker date="1547781890000" expanded="false" signature="4048:4142" ph="/.../" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -269,8 +266,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="143" />
+    <option name="x" value="163" />
+    <option name="y" value="23" />
     <option name="width" value="2529" />
     <option name="height" value="1297" />
   </component>
@@ -704,15 +701,15 @@
       <workItem from="1546820482835" duration="590000" />
       <workItem from="1547602947805" duration="33599000" />
       <workItem from="1547712518599" duration="854000" />
-      <workItem from="1547713763297" duration="6969000" />
+      <workItem from="1547713763297" duration="7594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142643000" />
+    <option name="totallyTimeSpent" value="143268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="143" width="2529" height="1297" extended-state="0" />
+    <frame x="163" y="23" width="2529" height="1297" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -727,7 +724,7 @@
       <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3163698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3163698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25231388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1169,10 +1166,10 @@
     <entry file="file://$PROJECT_DIR$/nio-use/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-957">
-            <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <first_editor relative-caret-position="-168">
+            <caret line="93" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="3" />
             <folding>
-              <marker date="1547781803000" expanded="false" signature="3978:4072" ph="/.../" />
+              <marker date="1547781890000" expanded="false" signature="4048:4142" ph="/.../" />
             </folding>
           </first_editor>
           <second_editor />
